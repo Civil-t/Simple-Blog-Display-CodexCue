@@ -1,0 +1,60 @@
+[
+    {
+        "logo": "../src/images/srt logo.png",
+        "car": "../src/images/challenger.png",
+        "name": "SRT Hellcat",
+        "speed" : "200mph",
+        "price": "$60,000",
+        "seat": "5",
+        "speaker": "bang & olufsen"
+    },
+    
+    {
+        "logo": "../src/images/range rover logo.png",
+        "car": "../src/images/velar.png",
+        "name":"Velar",
+        "speed" : "150mph",
+        "price":"85,000",
+        "seat":"5",
+        "speaker": "bang & olufsen"
+    },
+
+    {
+        "logo": "../src/images/bmw logo.png",
+        "car": "../src/images/bmw m4.png",
+        "name":"M4",
+        "speed" : "180mph",
+        "price":"$70,000",
+        "seat":"4",
+        "speaker": "harman kardon"
+        
+    },
+    {
+        "logo": "../src/images/jeep logo.png",
+        "car": "../src/images/wrangler.png",
+        "name":"Wrangler",
+        "speed" : "100mph",
+        "price":"$40,000",
+        "seat":"5",
+        "speaker": "beats"
+    },
+    {
+        "logo": "../src/images/mclaren logo.png",
+        "car": "../src/images/mclaren.png",
+        "name":"650s",
+        "speed" : "350mph",
+        "price":"$300,000",
+        "seat":"2",
+        "speaker": "bose"
+    },
+    {
+        "logo": "../src/images/amg logo.png",
+        "car": "../src/images/amg 1.png",
+        "name":"AMG GT",
+        "speed" : "300mph",
+        "price":"$150,000",
+        "seat":"2",
+        "speaker": "burmester"
+    }
+
+    ]

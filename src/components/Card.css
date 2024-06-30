@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  width: 300px;
+  height: auto;
+  background-size: cover;
+  background: rgba(114, 72, 212, 0.1);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+}
+
+#glowing-btn {
+  width: 30%;
+  height: 12%;
+  box-shadow: 00 5px #ab00ff, 0 0 25px #ab00ff;
+  /* From https://css.glass */
+  background: transparent;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border: none;
+  background-color: transparent;
+}
+
+#glowing-btn:hover,
+#name:hover {
+  box-shadow: 0 0 5px #ab00ff, 0 0 25px #ab00ff, 0 0 50px #ab00ff,
+    0 0 100px #ab00ff, 0 0 200px #ab00ff;
+}
+
+#car {
+  width: 100%;
+  max-height: 30px;
+  background-size: cover;
+
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  border-radius: 10px;
+}
+
+#name {
+  font-size: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin: 10px auto;
+  background-color: transparent;
+}
+
+#grid-container {
+  width: 98%;
+  height: 34vh;
+  display: grid;
+  gap: 10px;
+
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.grids {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(171, 0, 255, 0.05);
+}
+
+.grids h5 {
+  margin: 8px 0 0 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#icon {
+  font-size: 60px;
+  font-weight: bold;
+  width: 65%;
+  height: 65%;
+  margin: 0 auto;
+  color: rgb(171, 0, 255);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 200%;
+  height: 1px;
+  background-color: #ab00ff;
+  border: none;
+  margin-left: 20px;
+}
